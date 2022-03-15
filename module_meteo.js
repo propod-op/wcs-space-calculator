@@ -1,0 +1,1 @@
+const meteo = "beau soleil et sable"
