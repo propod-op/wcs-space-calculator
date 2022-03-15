@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Workshop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="space.css">
+</head>
+<body>
+    <div class='stars'></div>
+<div class='twinkling'></div>
+<div class='clouds'></div>
+    
+
+  <main>
+    <h1>Ma calculatrice</h1>
+      <img class="logo" src="space-invader.png" alt=""/>
+    <div class="container">
+      <table>
+      <tr>
+        <td colspan="4" class="result" id="result"></td>
+      </tr>
+      <tr>
+        <td onclick="addValue('7')">7</td>
+        <td onclick="addValue('8')">8</td>
+        <td onclick="addValue('9')">9</td>
+        <td onclick="addOperator('+')">+</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('4')">4</td>
+        <td onclick="addValue('5')">5</td>
+        <td onclick="addValue('6')">6</td>
+        <td onclick="addOperator('-')">-</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('1')">1</td>
+        <td onclick="addValue('2')">2</td>
+        <td onclick="addValue('3')">3</td>
+        <td onclick="addOperator('/')">/</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('0')">0</td>
+        <td onclick="calcul()">=</td>
+        <td onclick="fullReset()">C</td>
+        <td onclick="addOperator('*')">*</td>
+      </tr>
+    </table>
+        </div>
+    <p class="msg" id="msg"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
