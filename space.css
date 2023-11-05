@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .stars {
   z-index: 0;
-  background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top center;
+  background: #000 url("https://imgs.search.brave.com/wJdPC-afJKAwZW7S3B4CfCSqzGsE8gB5ne3kKDvErkA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3N0YXJzLXBu/Zy1oZC1zdGFyLXRy/YW5zcGFyZW50LXBu/Zy0yMjg3LnBuZw") repeat top center;
 }
 
 .twinkling {
@@ -78,7 +78,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .clouds {
   z-index: 2;
-  background: transparent url("https://image.ibb.co/bT4N7T/clouds.png") repeat top center;
+  background: transparent url("https://imgs.search.brave.com/_YBPHyuCMrZvwAHActdOzoizjrMubBR04bZjRLZVyD0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ob3d0/b2RyYXdmb3JraWRz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8xMi9ob3ct/dG8tZHJhdy1jbG91/ZHMtc3RlcC1ieS1z/dGVwLWVhc3ktMS5q/cGc") repeat top center;
   animation: move-clouds-back 200s linear infinite;
 }
 
